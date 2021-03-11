@@ -16,19 +16,21 @@ body{
   border: dashed silver 20px;
 }
 
-table{
+.outline{
   color: white;
   background-color: rgb(69,69,69);
   width: 50%;
   margin-left: 300px;
   margin-right: 300px;
-  
-}
-
-#shiftdownright{
   position: relative;
   top: 100px;
-  left: 150px
+  left: 150px ;
+}
+
+h3{
+  text-align: center;  
+  border-top: dashed white 5px;
+  border-bottom: dashed white 5px;
 }
 
 .redtxt{
