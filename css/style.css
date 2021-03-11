@@ -7,30 +7,36 @@ body{
   font-weight: 800;
   font-family: 'Bebas Neue', cursive;
   box-sizing: border-box;
-  float: middle;
   width: 100%;
   overflow: hidden;
   background-color: blue;
   border-radius: 100%;
   text-align: center;
-  border: dashed silver 20px;
+  border: solid silver 10px;
 }
 
 .outline{
   color: white;
   background-color: rgb(69,69,69);
   width: 50%;
-  margin-left: 300px;
-  margin-right: 300px;
   position: relative;
   top: 100px;
-  left: 150px ;
+  left: 25% ;
 }
 
 h3{
   text-align: center;  
   border-top: dashed white 5px;
   border-bottom: dashed white 5px;
+  font-family: 'Bebas Neue', cursive;
+  
+}
+
+#h3width{
+  width: 5%;
+  margin-left: 600;
+  margin-right: 600;
+  left: 45%
 }
 
 .redtxt{
